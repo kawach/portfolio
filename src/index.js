@@ -4,13 +4,13 @@ import './index.css';
 import './App.css';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Landing from "./Views/Landing";
+import App from "./App";
 
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
             <Routes>
-                <Route path="/portfolio/" element={<Landing />} />
+                <Route path="/" element={<App />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,
