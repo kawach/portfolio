@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7811793c.chunk.css",
+    "main.js": "/static/js/main.ffe5b34f.chunk.js",
+    "main.js.map": "/static/js/main.ffe5b34f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.992ecdf9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.992ecdf9.js.map",
+    "static/js/2.e2d10acb.chunk.js": "/static/js/2.e2d10acb.chunk.js",
+    "static/js/2.e2d10acb.chunk.js.map": "/static/js/2.e2d10acb.chunk.js.map",
+    "static/js/3.b9cd172f.chunk.js": "/static/js/3.b9cd172f.chunk.js",
+    "static/js/3.b9cd172f.chunk.js.map": "/static/js/3.b9cd172f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7811793c.chunk.css.map": "/static/css/main.7811793c.chunk.css.map",
+    "static/js/2.e2d10acb.chunk.js.LICENSE.txt": "/static/js/2.e2d10acb.chunk.js.LICENSE.txt",
+    "static/media/good-to-go.b9ae34ab.PNG": "/static/media/good-to-go.b9ae34ab.PNG",
+    "static/media/programing.e7fd0478.svg": "/static/media/programing.e7fd0478.svg",
+    "static/media/uiMCMWALLET.4813f535.png": "/static/media/uiMCMWALLET.4813f535.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.992ecdf9.js",
+    "static/js/2.e2d10acb.chunk.js",
+    "static/css/main.7811793c.chunk.css",
+    "static/js/main.ffe5b34f.chunk.js"
+  ]
+}
