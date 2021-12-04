@@ -1,4 +1,5 @@
 import React from "react";
+import LangSelector from "./LangSelector";
 
 export default function Navbar(props) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -20,7 +21,7 @@ export default function Navbar(props) {
                         }
                         href="#"
                     >
-                        Timmerman Victor
+                        Victor Timmerman
                     </a>
                     <button
                         className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -51,7 +52,7 @@ export default function Navbar(props) {
                                         : "text-gray-800 hover:text-gray-600") +
                                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                 }
-                                href="#"
+                                href="#Accueil"
                             >
                                 <i
                                     className={
@@ -106,8 +107,11 @@ export default function Navbar(props) {
                                         " fab fa-github text-lg leading-lg "
                                     }
                                 />
-                                <span className="lg:hidden inline-block ml-2">Star</span>
+                                <span className="lg:hidden inline-block ml-2">Github</span>
                             </a>
+                        </li>
+                        <li className={"flex flex-col lg:flex-row list-none lg:ml-auto"}>
+                            <LangSelector />
                         </li>
                     </ul>
                 </div>
